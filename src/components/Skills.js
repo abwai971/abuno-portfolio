@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 const Skills = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  // const [isVisible, setIsVisible] = useState(false);
   
   const skillsCategories = [
     {
@@ -27,12 +27,12 @@ const Skills = () => {
     }
   ];
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-    }, 100);
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsVisible(true);
+  //   }, 100);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   // Skill bar animation variants
   const containerVariants = {
